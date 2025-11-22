@@ -61,5 +61,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Notification équipe
-         run: echo "Déploiement terminé — notification envoyée à l’équipe !"
+        run: echo "Déploiement terminé — notification envoyée à l’équipe !"
   
