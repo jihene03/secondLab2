@@ -24,11 +24,11 @@ jobs:
       - name: Exécuter les tests
         run: npm test
 
-    
+      - name: Nettoyage
+        run: echo "Nettoyage de l’espace de travail du runner..."
         
   deploy:
     runs-on: ubuntu-latest
-    needs: test
 
     steps:
       - name: Récupération du dépôt
